@@ -1,7 +1,7 @@
 # Based on desktop-base/debian-logos/Makefile
 # Copyright (C) 2019-2021 Aurélien Couderc <coucouf@debian.org>
 
-TARGET_DIR = usr/share/icons/droidian
+TARGET_DIR = usr/share/icons/furilabs
 TARGET_DIR_SCALABLE = $(TARGET_DIR)/scalable/emblems
 # Generic folder for alternatives
 TARGET_VENDOR = usr/share/icons/vendor

@@ -1,6 +1,6 @@
-PRETTY_NAME="Droidian trixie"
-NAME="Droidian"
-ID=droidian
+PRETTY_NAME="FuriOS trixie"
+NAME="FuriOS"
+ID=furios
 ID_LIKE="debian"
-HOME_URL="https://droidian.org/"
-BUG_REPORT_URL="https://github.com/droidian/meta/issues"
+HOME_URL="https://furilabs.com/"
+BUG_REPORT_URL="https://github.com/furilabs/furi-images/issues"

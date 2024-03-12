@@ -2,31 +2,31 @@
 
 remove() {
 	# Restore os infos
-	if [ -e "/usr/lib/droidian-branding/os-release.debian" ]; then
+	if [ -e "/usr/lib/furios-branding/os-release.debian" ]; then
 		unlink /usr/lib/os-release
 		dpkg-divert \
 			--rename \
-			--package droidian-branding \
-			--divert "/usr/lib/droidian-branding/os-release.debian" \
+			--package furios-branding \
+			--divert "/usr/lib/furios-branding/os-release.debian" \
 			--remove "/usr/lib/os-release"
 
 	fi
 
-	if [ -e "/usr/lib/droidian-branding/issue.debian" ]; then
+	if [ -e "/usr/lib/furios-branding/issue.debian" ]; then
 		unlink /etc/issue
 		dpkg-divert \
 			--rename \
-			--package droidian-branding \
-			--divert "/usr/lib/droidian-branding/issue.debian" \
+			--package furios-branding \
+			--divert "/usr/lib/furios-branding/issue.debian" \
 			--remove "/etc/issue"
 	fi
 
-	if [ -e "/usr/lib/droidian-branding/issue.net.debian" ]; then
+	if [ -e "/usr/lib/furios-branding/issue.net.debian" ]; then
 		unlink /etc/issue.net
 		dpkg-divert \
 			--rename \
-			--package droidian-branding \
-			--divert "/usr/lib/droidian-branding/issue.net.debian" \
+			--package furios-branding \
+			--divert "/usr/lib/furios-branding/issue.net.debian" \
 			--remove "/etc/issue.net"
 	fi
 }

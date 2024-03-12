@@ -1,5 +1,5 @@
 Source: droidian-branding
-Maintainer: Eugenio Paolantonio (g7) <eugenio@droidian.org>
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: misc
 Priority: optional
 Build-Depends: debhelper (>= 13),
@@ -7,12 +7,12 @@ Build-Depends: debhelper (>= 13),
                librsvg2-bin,
                optipng,
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/droidian-branding
-Vcs-Git: https://github.com/droidian/droidian-branding.git
+Vcs-Browser: https://github.com/furilabs/furios-branding
+Vcs-Git: https://github.com/furilabs/furios-branding.git
 
-Package: droidian-branding
+Package: furios-branding
 Architecture: all
 Pre-Depends: base-files,
              desktop-base,
-Description: Branding for Droidian
- This package contains some branding bits for Droidian.
+Description: Branding for FuriOS
+ This package contains some branding bits for FuriOS

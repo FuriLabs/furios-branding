@@ -1,10 +1,10 @@
 all: emblems
 
-emblems: emblems-droidian
-	$(MAKE) -C emblems-droidian
+emblems: emblems-furilabs
+	$(MAKE) -C emblems-furilabs
 
 install: emblems
-	$(MAKE) -C emblems-droidian install
+	$(MAKE) -C emblems-furilabs install
 
 .PHONY: all emblems
 

@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper>
     <!-- don't include words such as "wallpaper" (avoids translations) -->
-    <name>Droidian Emerald</name>
-    <filename>/usr/share/backgrounds/droidian/droidian.xml</filename>
+    <name>FuriLabs</name>
+    <filename>/usr/share/backgrounds/furilabs/fuirlabs.xml</filename>
     <options>zoom</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
