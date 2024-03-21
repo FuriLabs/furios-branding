@@ -1,5 +1,7 @@
 PRETTY_NAME="FuriOS trixie"
 NAME="FuriOS"
+VERSION_ID="13.0"
+VERSION="13.0"
 ID=furios
 ID_LIKE="debian"
 HOME_URL="https://furilabs.com/"
